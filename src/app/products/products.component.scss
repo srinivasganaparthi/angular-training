@@ -1,0 +1,19 @@
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+
+  >div {
+    padding: 20px;
+    width: 30%;
+    border: solid 1px;
+  }
+
+}
+
+.header {
+  background-color: darkgoldenrod;
+  font-weight: bold;
+}

@@ -1,0 +1,22 @@
+ <div class="products header">
+   <div>
+     Name
+   </div>
+   <div>
+     Price
+   </div>
+   <div>
+     Color
+   </div>
+ </div>
+ <div class="products" *ngFor="let product of products">
+   <div>
+     {{product.name}}
+   </div>
+   <div>
+     {{product.price}}
+   </div>
+   <div>
+     {{product.color}}
+   </div>
+ </div>

@@ -1,0 +1,14 @@
+<input type="text" [(ngModel)]="testname">
+<app-child [name]='testname' (newItemEvent)="addItem($event)"></app-child>
+
+
+<p>The date is {{ birthday | date:format }}</p>
+<button type="button" (click)="toggleFormat()">Toggle Format</button>
+
+
+<p>The date is {{ birthday | date:'fullDate' }}</p>
+
+
+<ul>
+  <li *ngFor="let item of items">{{item}}</li>
+</ul>

@@ -1,0 +1,36 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: DodgerBlue;
+  border-right: solid 1px;
+  padding: 10px;
+  width: 10%;
+  height: 300px;
+}
+
+a {
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.right-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  width: 90%;
+}
+
+.title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: coral;
+  font-weight: bold;
+  padding: 20px;
+}
