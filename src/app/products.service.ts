@@ -4,7 +4,7 @@ import { Observable } from 'rxjs'
 import { of } from 'rxjs'
 
 
-export class product {
+export class Product {
   id: number | undefined;
   name: string | undefined;
   price: number | undefined;
@@ -16,7 +16,7 @@ export class product {
 })
 export class ProductsService {
 
-  products: product[] | undefined;
+  products: Product[] | undefined;
 
 
   constructor(private http: HttpClient) {
@@ -27,7 +27,7 @@ export class ProductsService {
     ];
   }
 
-  getProducts(): Observable<product[] | undefined> {
+  getProducts(): Observable<Product[] | undefined> {
     const products = of(this.products);
     return products;
   }
